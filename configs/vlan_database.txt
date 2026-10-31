@@ -1,0 +1,9 @@
+! VLAN definitions for Switch1 and Switch2 (identical on both switches).
+! These are stored in the VLAN database, so they do not appear in show running-config.
+! Enter them in global configuration mode before applying the interface settings.
+vlan 10
+ name HR
+vlan 20
+ name IT
+vlan 30
+ name FINANCE
